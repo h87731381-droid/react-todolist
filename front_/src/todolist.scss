@@ -1,0 +1,94 @@
+html {
+    background-color: rgb(50, 50, 50);
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+
+input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+
+.App {
+    width: 500px;
+    text-align: center;
+    padding: 30px;
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .Header {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border-bottom: 1px solid white;
+        padding: 0 0 10px 0;
+        width: 100%;
+        background-color: lightblue;
+    
+        .Header_title {
+            text-align: left;
+            padding: 0 0 0 20px;
+        }
+        
+        .section_1 {
+            display : flex;
+            justify-content: end;
+            gap: 10px;
+            padding: 0 10px 0 0;
+
+            .misson {
+                font-size: 14px;
+            }
+
+            .typeButton {
+                display: flex;
+                gap: 10px;
+
+                button {
+                    background-color: white;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+    
+    .insert {
+        display: flex;
+        gap: 10px;
+        justify-content: end;
+        padding: 0 10px 0 0;
+
+        button {
+            border: none;
+            background-color: beige;
+            border-radius: 5px;
+        }
+
+        input {
+            width: 220px;
+        }
+    }
+    
+    .note {
+        background-color: beige;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid white;
+        padding: 10px 20px;
+
+        .noteButton {
+            display: flex;
+            gap: 5px;
+        }
+    }
+}
