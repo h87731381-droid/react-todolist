@@ -63,7 +63,7 @@ const todoStore = create((set) => ({
                 let updateData = item.data.map(function(obj){
 
                     //찐id가 매개변수 id랑 맞냐?
-                    if(obj._id == id){
+                    if(obj._id === id){
                         obj.isdone = true;
                     }
                     return obj;
